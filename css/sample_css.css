@@ -39,9 +39,13 @@ details{
 	font-style: italic;
 }
 img{
-	border: inset;
+	/*border: inset;
 	border-color:  #00b7ea;
-	border-width: 10px;
+	border-width: 10px;*/
+
+	/*or*/
+	
+	border:15px inset #00b7ea  ;
 }
 
 

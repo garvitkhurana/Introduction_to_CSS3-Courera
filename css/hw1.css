@@ -1,0 +1,22 @@
+/*File Created by Garvit Khurana*/
+
+h1{
+	 text-transform: uppercase;
+	 text-align: center;
+	 color: #ffffff
+
+}
+header{
+	background: #b2b2b2;
+}
+img{
+	display: none;
+}
+h2{
+	text-transform: uppercase;
+	color: #09007f;
+}
+
+main{
+	background: #7f7f7f;
+}

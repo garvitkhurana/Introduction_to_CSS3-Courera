@@ -2,18 +2,21 @@
 Together-1
  */
 body{
-	background:#B3B3B3;
-	font-size: 125%;
+	background:#B3B3B5;
+	font-size: 145%;
 
 }
 
 header{
-	background: #666666;
+	background: #b78d2366;
 	text-align: center;
 }
-
+a{
+	color: #123456
+}
 h1{
 	color: #ffffff;
+	background: #111111
 }
 
 nav{
@@ -29,15 +32,21 @@ h2{
 
 
 summary{
-	font-style:normal;
+	font-style: normal;
 }
 
 details{
 	font-style: italic;
 }
+img{
+	border: inset;
+	border-color:  #00b7ea;
+	border-width: 10px;
+}
 
 
 footer{
+	display: inline-block;
 	background: #666666
 }
 

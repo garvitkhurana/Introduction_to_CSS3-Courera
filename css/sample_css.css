@@ -1,22 +1,21 @@
 /* 
-Together-1
+Together-2
  */
-body{
-	background:#B3B3B5;
-	font-size: 145%;
+ body{
+	background:#B3B3B3;
+	margin:2%;
+	font-size: 150%;
 
 }
 
 header{
-	background: #b78d2366;
+	background: #00b7ea;
 	text-align: center;
+	padding-bottom: 15px;
 }
-a{
-	color: #123456
-}
+
 h1{
 	color: #ffffff;
-	background: #111111
 }
 
 nav{
@@ -30,27 +29,27 @@ h2{
 	background: #00b7ea;
 }
 
+section{
+	width:30%;
+	margin-right: 2%;
+	display:inline-block;
+	float:left;
+}
 
 summary{
-	font-style: normal;
+	font-style:normal;
 }
 
 details{
 	font-style: italic;
 }
-img{
-	/*border: inset;
-	border-color:  #00b7ea;
-	border-width: 10px;*/
-
-	/*or*/
-	
-	border:15px inset #00b7ea  ;
-}
-
 
 footer{
-	display: inline-block;
-	background: #666666
+	background: #00b7ea;
+	height:100px;
+	clear: both;
 }
 
+img{
+	width: 75px;
+}

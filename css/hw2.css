@@ -1,0 +1,54 @@
+/*File Created by Garvit Khurana*/
+h1{
+	 text-transform: uppercase;
+	 text-align: center;
+	 color: #ffffff;
+	 font-size: 250%;
+}
+header{
+	margin: 10px 10px 0px 10px;
+	padding: 5px 5px 15px;
+	background-image:url("/Users/garvitkhurana/Desktop/CSS3/images/flywheel.jpg");
+	opacity: 0.8;
+}
+nav{
+	text-align: center;
+}
+nav>a{
+	display: inline-block;
+	text-decoration: none;
+	margin: 10px;
+	padding: 5px;
+	color: #000000;
+	font-size: 125%;
+	border-radius: 5px;
+	opacity: 0.4;}
+
+nav>a:link{
+	background-color:#ffffff;
+}
+nav>a:hover{
+	opacity: 1;
+}
+
+img{
+	display: block;
+	margin-bottom: 15px;
+	height: 150px;
+	width: 220px;
+	border:solid 2px #000000;
+}
+.left{
+	background: #767613;
+	margin: 0px 5px 5px 5px;
+	padding: 7px;
+	float: left;
+}
+h2{
+	font-family: serif;
+	font-size: 150%;
+	color: #000000;
+}
+main{
+	display: inline-block;
+	margin:0px 5px 5px 5px;}

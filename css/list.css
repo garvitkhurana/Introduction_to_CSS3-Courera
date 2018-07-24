@@ -1,0 +1,38 @@
+div{
+	display: inline-block;
+	width: 30%;
+}
+ol{
+	list-style-type: lower-roman;
+}
+ul{
+	list-style-type: circle;
+}
+
+a{
+	font-variant: small-caps;
+	text-decoration: none;
+	font-family: Helvetica,"Times New Roman";
+	margin-left: 3%;
+	display: block;
+	width: 30%
+}
+
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}

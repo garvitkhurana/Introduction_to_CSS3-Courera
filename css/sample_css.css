@@ -1,6 +1,3 @@
-/* 
-Together-2
- */
  body{
 	background:#B3B3B3;
 	margin:2%;
@@ -45,7 +42,6 @@ details{
 }
 
 footer{
-	background: #00b7ea;
 	height:100px;
 	clear: both;
 }
@@ -53,3 +49,5 @@ footer{
 img{
 	width: 75px;
 }
+
+

@@ -20,16 +20,18 @@ nav>a{
 	margin: 10px;
 	padding: 5px;
 	color: #000000;
+	background-color:#ffffff;
 	font-size: 125%;
 	border-radius: 5px;
-	opacity: 0.4;}
+	opacity: 0.65;}
 
-nav>a:link{
-	background-color:#ffffff;
-}
 nav>a:hover{
 	opacity: 1;
 }
+nav>a.active{
+	opacity: 1;
+}
+
 
 img{
 	display: block;
@@ -43,6 +45,11 @@ img{
 	margin: 0px 5px 5px 5px;
 	padding: 7px;
 	float: left;
+}
+.right{
+	display: inline-block;
+	float: left;
+	width: 80%;
 }
 h2{
 	font-family: serif;

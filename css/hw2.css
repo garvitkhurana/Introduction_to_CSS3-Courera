@@ -8,6 +8,7 @@ h1{
 header{
 	margin: 10px 10px 0px 10px;
 	padding: 5px 5px 15px;
+	background-color: #ffffff;
 	background-image:url("/Users/garvitkhurana/Desktop/CSS3/images/flywheel.jpg");
 	opacity: 0.8;
 }
@@ -59,3 +60,8 @@ h2{
 main{
 	display: inline-block;
 	margin:0px 5px 5px 5px;}
+body{
+	padding: 5px;
+	margin: 5px;}
+	
+}

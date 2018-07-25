@@ -39,18 +39,21 @@ img{
 	margin-bottom: 15px;
 	height: 150px;
 	width: 220px;
+	padding: 3px;
 	border:solid 2px #000000;
 }
+
 .left{
 	background: #767613;
 	margin: 0px 5px 5px 5px;
 	padding: 7px;
 	float: left;
 }
-.right{
+
+.right {
 	display: inline-block;
-	float: left;
-	width: 80%;
+	width: 78%	;
+	float: right;
 }
 h2{
 	font-family: serif;

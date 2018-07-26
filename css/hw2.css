@@ -5,11 +5,14 @@ h1{
 	 color: #ffffff;
 	 font-size: 250%;
 }
+body{
+	background-color: #ffffff;
+}
 header{
 	margin: 10px 10px 0px 10px;
 	padding: 5px 5px 15px;
 	background-color: #ffffff;
-	background-image:url("/Users/garvitkhurana/Desktop/CSS3/images/flywheel.jpg");
+	background-image:url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
 	opacity: 0.8;
 }
 nav{
@@ -53,7 +56,7 @@ img{
 .right {
 	display: inline-block;
 	width: 78%	;
-	float: right;
+	float: left;
 }
 h2{
 	font-family: serif;

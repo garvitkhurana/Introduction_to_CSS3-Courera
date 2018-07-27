@@ -1,4 +1,6 @@
 /*File Created by Garvit Khurana*/
+/*Best viewed on Chrome/Safari Optimized for MacBookPro 13inch*/
+
 h1{
 	 text-transform: uppercase;
 	 text-align: center;
@@ -43,13 +45,16 @@ table{
 	margin: 0 auto;
 	table-layout: auto;
 	width: 800px;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
 }
 th{
 	border-top-left-radius:7px;
 	border-top-right-radius:7px; 
 	background: linear-gradient(#d8e4a8,#53650c);
 	color: #ffffff;
-	padding: 7px;
 }
 
 td{
@@ -59,7 +64,6 @@ td{
 }
 tr td{
 	background-color:#ebf8db;
-	padding: 7px;
 }
 
 tr{
@@ -73,7 +77,9 @@ tr.header{
 tr:hover{
 	opacity: 1;
 }
-
+th:first-child, td:first-child{
+	text-align: left;
+}
 
 img{
 	display: block;

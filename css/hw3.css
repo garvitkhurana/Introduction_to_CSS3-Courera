@@ -37,15 +37,16 @@ nav>a.active{
 }
 table,th,td{
 
-	border: 2px solid #ffffff;
-	border-top-left-radius:7px;
-	border-top-right-radius:7px; 
+	border: 1px solid #ffffff;
 }
 table{
 	margin: 0 auto;
-	border-collapse: collapse;
 	table-layout: auto;
 	width: 800px;
+}
+th{
+	border-top-left-radius:7px;
+	border-top-right-radius:7px; 
 }
 
 td{
@@ -63,7 +64,7 @@ th{
 	}
 
 tr{
-		opacity: 0.8;
+		opacity: 0.7;
 
 }
 tr.header{

@@ -1,0 +1,114 @@
+/*File Created by Garvit Khurana*/
+h1{
+	 text-transform: uppercase;
+	 text-align: center;
+	 color: #ffffff;
+	 font-size: 250%;
+}
+body{
+	background-color: #ffffff;
+}
+header{
+	margin: 10px 10px 0px 10px;
+	padding: 5px 5px 15px;
+	background-color: #ffffff;
+	background-image:url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+	opacity: 0.8;
+}
+nav{
+	text-align: center;
+}
+nav>a{
+	display: inline-block;
+	text-decoration: none;
+	margin: 10px;
+	padding: 5px;
+	color: #000000;
+	background-color:#ffffff;
+	font-size: 125%;
+	border-radius: 5px;
+	opacity: 0.65;}
+
+nav>a:hover{
+	opacity: 1;
+}
+nav>a.active{
+	opacity: 1;
+}
+table,th,td{
+
+	border: 2px solid #ffffff;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px; 
+}
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+	table-layout: auto;
+	width: 800px;
+}
+
+td{
+	color: #000000;
+
+}
+tr td{
+	background-color:#ebf8db;
+	padding: 7px;
+}
+th{
+	background-color: #9dae5c;
+	color: #ffffff;
+	padding: 7px;
+	}
+
+tr{
+		opacity: 0.8;
+
+}
+tr.header{
+	opacity: 1;
+}
+
+tr:hover{
+	opacity: 1;
+}
+
+
+img{
+	display: block;
+	margin-bottom: 15px;
+	height: 150px;
+	width: 220px;
+	padding: 3px;
+	border:solid 2px #000000;
+}
+
+.left{
+	background: #767613;
+	margin: 0px 5px 5px 5px;
+	padding: 7px;
+	float: left;
+}
+
+.right {
+	display: inline-block;
+	width: 78%	;
+	float: left;
+}
+h2{
+	font-family: serif;
+	font-size: 150%;
+	color: #000000;
+}
+main{
+	display: inline-block;
+	margin:0px 5px 5px 5px;}
+body{
+	padding: 5px;
+	margin: 5px;}
+	
+}
+table{
+
+}

@@ -47,21 +47,20 @@ table{
 th{
 	border-top-left-radius:7px;
 	border-top-right-radius:7px; 
+	background: linear-gradient(#d8e4a8,#53650c);
+	color: #ffffff;
+	padding: 7px;
 }
 
 td{
 	color: #000000;
+	text-shadow: 3px 3px 4px #767613;
 
 }
 tr td{
 	background-color:#ebf8db;
 	padding: 7px;
 }
-th{
-	background-color: #9dae5c;
-	color: #ffffff;
-	padding: 7px;
-	}
 
 tr{
 		opacity: 0.7;

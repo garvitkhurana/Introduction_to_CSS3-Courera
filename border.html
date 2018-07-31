@@ -2,35 +2,64 @@
 <html>
 <head>
 <style>
-p.dotted {border-style: dotted;}
-p.dashed {border-style: dashed;}
-p.solid {border-style: solid;}
-p.double {border-style: double;}
-p.groove {border-style: groove;}
-p.ridge {border-style: ridge;}
-p.inset {border-style: inset;}
-p.outset {border-style: outset;}
-p.none {border-style: none;}
-p.hidden {border-style: hidden;}
-p.mix {border-style: dotted dashed solid double;}
+body{
+		background-color: #eedbef;
+	}
+	h1{
+			font-weight: bold;
+			font-family: "Times New Roman" serif;
+			font-size: 50px;
+			color: #0084ff;
+		}
+p.dotted {border-style: dotted; border-color:red;}
+p.dashed {border-style: dashed;border-color:red;}
+p.solid {border-style: solid;border-color:red;}
+p.double {border-style: double;border-color:red;}
+p.groove {border-style: groove;border-color:red;}
+p.ridge {border-style: ridge;border-color:red;}
+p.inset {border-style: inset;border-color:red;}
+p.outset {border-style: outset;border-color:red;}
+p.none {border-style: none;border-color:red;}
+p.mix {border-style: dotted dashed solid double;border-color:red;}
+p{
+	display: inline-block;
+	padding: 3px;
+	margin: 15px;
+}
+div{
+	position: absolute;
+	margin: 100px auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+	height: 150px;
+}
 </style>
 </head>
 <body>
 
-<h2>The border-style Property</h2>
-<p>This property specifies what kind of border to display:</p>
-
-<p class="dotted">A dotted border.</p>
-<p class="dashed">A dashed border.</p>
-<p class="solid">A solid border.</p>
-<p class="double">A double border.</p>
-<p class="groove">A groove border.</p>
-<p class="ridge">A ridge border.</p>
-<p class="inset">An inset border.</p>
-<p class="outset">An outset border.</p>
-<p class="none">No border.</p>
-<p class="hidden">A hidden border.</p>
-<p class="mix">A mixed border.</p>
-
+<h1>The border-style properties</h1>
+<div>
+	<table>
+<tr><td>
+<p class="dotted">A dotted border.</p><br></td><td>
+<p class="dashed">A dashed border.</p><br></td>
+</tr><tr><td>
+<p class="solid">A solid border.</p><br></td><td>
+<p class="double">A double border.</p><br></td>
+</tr><tr><td>
+<p class="groove">A groove border.</p><br></td><td>
+<p class="ridge">A ridge border.</p><br></td>
+</tr><tr><td>
+<p class="inset">An inset border.</p><br></td><td>
+<p class="outset">An outset border.</p><br></td>
+</tr><tr><td>
+<p class="none">No border.</p><br></td><td>
+<p class="mix">A mixed border.</p><br></td>
+</tr>
+</table>
+</div>
 </body>
 </html>

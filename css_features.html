@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Features</title>
+	<style>
+	div{
+		display: block;
+		margin: 5px;
+		padding:4px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+		p.shadow{
+			text-shadow: 2px 3px 1px #0dabec;
+		}
+		p.overflow{
+			border: 1px solid #000000;
+			white-space: pre; 
+			max-height: 40px;
+			max-width: 500px;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+		p.wordwrap{
+			word-break: break-word;
+			width: 140px; 
+			border: 1px solid #000000;
+			float: left;
+			margin: 10px;
+		}
+		p.nowordwrap{
+			float: left;
+			word-break: normal;
+			width: 140px; 
+			border: 1px solid #000000;
+			margin: 10px;
+		}
+		.img{
+			clear: both;
+		}
+		figure.left{
+			float: left;
+		}
+		figure.right{
+			float: right;
+		}
+		img{
+			width: 80%;
+			height: 50%;
+		}
+	</style>
+	</head>
+	<body>
+	<div>
+		<h1>Text Shadow</h1>
+		<p class="shadow">This is a sample text for this Web Page. Just for experimentation purposes.</p>
+	</div>
+	<div>
+		<h1>Text Overflow</h1>
+		<p class="overflow">This is a sample text for this Web Page. Just for experimentation purposes.This is a sample text for this Web Page. Just for experimentation purposes.This is a sample text for this Web Page.</p>
+	</div>
+	<div>
+		<h1>Text Wrap</h1>
+		<h5><b>Text Wrap has been removed so using Word Wrap</b></h5>
+		<br>
+		<p class="wordwrap">This is a sample text for this Web Page. Just for experimentationexperimentation purposes.
+			<br></p>
+		<p class="nowordwrap">This is a sample text for this Web Page. Just for experimentation purposes.
+			<br></p>
+	</div>
+	<div class="img">
+		<h1 >Image float left</h1>
+		<figure class="left"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjuqDOkACPGkAzE5Ci_wdUhhqVbly3P3lmr4ZLuY2qABCAfRZO"></figure>
+	</div>
+		<div class="img">
+		<h1>Image float right</h1>
+		<figure class="right"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjuqDOkACPGkAzE5Ci_wdUhhqVbly3P3lmr4ZLuY2qABCAfRZO"></figure>
+	</div>
+</body>
+</html>

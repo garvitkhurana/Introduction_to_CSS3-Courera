@@ -4,37 +4,46 @@
 	<title> Hello World
 	</title>
 	<style type="text/css">
+	h1{
+		color: #0084ff;
+		font-size: 50px;
+	}
 	body{
-		background-color: #eedbef;
+		background-color: #ffffff;
 	}
 	div{
-		padding: 15px;
+		border: 4px dashed black;
+		margin: 250px auto;
+		text-align: center;
+		width: 500px;
+		padding: 10px;
+	}
+	#sub{
 		border: 30px solid gray;
 		border-top: 30px solid yellow;
-		display: inline-block;
-		 position: absolute;
-		 height: 150px;
-		 width: 300px;
-		 margin: auto;
-		 top: 0;
-		 right: 0;
-		 bottom: 0;
-		 left: 0;
-		 text-align: center;
+		text-align: center;
+		margin: 8px auto;
+		width: 60%;
+		padding: 10px;
 	}
-		h1{
+		p{
 			font-weight: bold;
 			font-family: "Times New Roman" serif;
-			padding: 2px;
 			font-size: 50px;
 			color: #0084ff;
+			border: 2px dashed black;
+			margin: 5px;
+			padding: 10px;
 		}
 		
 	</style>
 </head>
 <body>
+	<h1 style="text-align: center;">Box Model Sample</h1>
 	<div>
-		<h1>Hello World</h1>
+	<div id="sub"> 
+		<p>Hello World</p>
 	</div>
+</div>
 </body>
 </html>

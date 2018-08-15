@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Drop Down</title>
+<meta charset="utf-8">
+<style>
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #93b3e6;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: #93b3e6;
+}
+li ul { display: none; }
+
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+ul li a:hover { background: #8993ea; }
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background: #8993ea; }
+
+li:hover li a:hover { background: #94c2fd; }
+
+/*.main-navigation li ul li { border-top: 0; }
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+ul:before,
+ul:after {
+  content: " "; 
+  display: table;
+}*/
+
+ul:after { clear: both; }
+#b{
+   border:1px solid black;
+   border-collapse: collapse;
+}
+</style>
+
+</head>
+
+<body>
+
+<ul class="main-navigation">
+  <li><a href="#">Home</a></li>
+  <li style="width: 111px;"><a href="#">Categories</a>
+    <ul>
+      <li id="b"><a href="#">Photoshop</a></li>
+      <li id="b"><a href="#">Illustrator</a>
+      <li id="b"><a href="#">Web Design</a>
+        <ul>
+          <li id="b"><a href="#">HTML</a></li>
+          <li id="b"><a href="#">CSS</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#">Most Popular</a>
+  </li>
+  <li><a href="#">Contact Us</a></li>
+</ul>
+</body>
+</html>
